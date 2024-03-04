@@ -1,0 +1,94 @@
+/* App container */
+.App {
+  text-align: center;
+  border: 2px solid #999; /* Add border to the whole app */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  background-color: #f5f5f5; /* Light silver background */
+}
+
+/* Title */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; /* Dark gray color */
+}
+
+/* Container for audio tracks */
+.audio-tracks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual audio track */
+.audio-track {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: #fff; /* White background */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Track info */
+.track-info {
+  margin-bottom: 10px;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px; /* Adjusted padding */
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ff6666;
+}
+
+/* Play button */
+.play-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px; /* Adjusted padding */
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #45a049;
+}
+
+/* File input */
+input[type="file"] {
+  margin-top: 20px;
+}
+
+/* Play All button */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Audio controls */
+audio {
+  width: 80%;
+  margin-top: 20px;
+}
